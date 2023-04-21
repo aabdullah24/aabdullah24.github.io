@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@300&family=Proza+Libre&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif ;
+}
+body {
+    height: 95vh;
+    width: 95wh;
+}
+
+#home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3f72af;
+    height: 650px;
+    padding: 20px;
+}
+img {
+    margin-top: 20px;
+    width: 300px;
+    height: 320px;
+}
+#border {
+    width: 340px;
+    height: 450px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    box-shadow: 7px 12px 15px 0px rgba(0, 0, 0, 0.1);
+}
+#home-page-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.title {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 0px 0px 50px 0px;
+    color: rgb(255, 255, 255);
+}
+.subtitle {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 50px;
+}
+.text {
+    margin-top: 20px;
+    color: #212121;
+    font-size: 18px;
+}
+.home-page-text {
+    margin: 0px 0px 50px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+#buttons {
+    display: flex;
+    gap: 30px;
+}
+#resume-button {
+    width: 140px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color:  rgb(255, 255, 255);
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.icon {
+    margin-right: 5px;
+}
+#contact-button {
+    width: 140px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #212121;
+    color:  rgb(255, 255, 255);
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+#resume-button:hover {
+    color: #112d4e;
+    box-shadow: 7px 12px 15px 0px rgba(0, 0, 0, 0.1);
+} 
+#contact-button:hover {
+    background-color: #323232;
+    color: rgb(255, 255, 255);
+    box-shadow: 7px 12px 15px 0px rgba(0, 0, 0, 0.1);
+}
+#infographic-section {
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#education-section {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e8ed;
+    align-items: center;
+    background-image: url("resourses/education 1.jpg");
+    background-size: cover;
+    padding: 20px;
+}
+.education-content {
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 150px;
+    margin-top: 30px;
+    box-shadow: 7px 12px 15px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+.small-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.small-box {
+    height: 100%;
+    width: 180px;
+    background-color: #3f72af;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.gray-text {
+    color: #757575;
+    font-weight: bold;
+    font-size: 14px;
+}
+.description {
+   padding: 20px;
+   margin-bottom: 10px;
+}
+#contactMe-section {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-container {
+   margin: 40px; 
+   padding: 40px;
+   width: 500px;
+   height: fit-content;
+   box-shadow: 7px 12px 15px 0px rgba(0, 0, 0, 0.1);
+   border: solid #e6e8ed 1px ;
+}
+#contactMe-section .subtitle {
+    margin-left: 40px;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.wrapper {
+    margin: 20px;
+}
+#form .wrapper div {
+    display: flex;
+    flex-direction: column;
+}
+#form .wrapper div section {
+    display: flex;
+    flex-direction: column;
+}
+.box {
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    padding: 10px;
+    border: solid #e6e8ed;
+}
+input[type=email] {
+    padding: 10px;
+    border: solid #e6e8ed;
+}
+input[type=number] {
+    padding: 10px;
+    border: solid #e6e8ed;
+}
+input[type=tel] {
+    padding: 10px;
+    border: solid #e6e8ed;
+}
+textarea {
+    padding: 10px;
+    border: solid #e6e8ed;
+}
+.form-text {
+    color: #212121;
+    font-weight: bold;
+    font-size: 14px;
+}
+.blue-button:hover {
+    box-shadow: 7px 12px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.blue-button {
+    padding: 10px;
+    background-color: #112d4e;
+    color: #e6e8ed;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#error-message {
+    color: red;
+    font-size: 13px;
+}
+
+@media(max-width:800px ) {
+    #home-page {
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+    img {
+        margin-top: 20px;
+        width: 200px;
+        height: 220px;
+    }
+    #border {
+        width: 240px;
+        height: 350px;
+    }
+    #resume-button, #contact-button {
+        width: 100px;
+        height: 50px;
+        font-size: small;
+    }
+    .title {
+        font-size: 30px;
+    }
+    #home-page h3 {
+        font-size: 18px;
+    }
+    .subtitle {
+        font-size: 18px;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .education-content {
+        width: 350px;
+        height: 100px;
+    }
+    .small-box {
+        width: 80px;
+    }
+    .education-content p {
+        font-size: 12px;
+    }
+    .gray-text {
+        font-size: 12px;
+    }
+    .form-container {
+        width: 300px;
+    }
+	
+@media only screen and (max-width: 768px) {
+    #home-page {
+        flex-direction: column;
+        margin: 20px 10px;
+    }
+
+    #infographic-section {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .infographic {
+        width: 250px;
+        height: 250px;
+        margin: 10px;
+    }
+
+    #education-section {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .education-content {
+        width: 90%;
+    }
+	
+	#home-page, .education-content {
+    text-align: center;
+	}
+
+}
