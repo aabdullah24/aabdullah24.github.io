@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@300&family=Proza+Libre&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif ;
+}
+#home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3f72af;
+    height: 650px;
+}
+img {
+    margin-top: 20px;
+    width: 300px;
+    height: 320px;
+}
+#border {
+    width: 340px;
+    height: 450px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    box-shadow: 7px 12px 15px 0px rgba(0, 0, 0, 0.1);
+}
+#home-page-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 40px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.title {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 0px 0px 50px 0px;
+    color: rgb(255, 255, 255);
+}
+.subtitle {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 50px;
+}
+.text {
+    margin-top: 20px;
+    color: #212121;
+    font-size: 18px;
+}
+.home-page-text {
+    margin: 0px 0px 50px 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+#buttons {
+    display: flex;
+    gap: 30px;
+}
+#resume-button {
+    width: 140px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color:  rgb(255, 255, 255);
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.icon {
+    margin-right: 5px;
+}
+#contact-button {
+    width: 140px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #212121;
+    color:  rgb(255, 255, 255);
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+#resume-button:hover {
+    color: #112d4e;
+    box-shadow: 7px 12px 15px 0px rgba(0, 0, 0, 0.1);
+} 
+#contact-button:hover {
+    background-color: #323232;
+    color: rgb(255, 255, 255);
+    box-shadow: 7px 12px 15px 0px rgba(0, 0, 0, 0.1);
+}
+#infographic-section {
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#education-section {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e8ed;
+    align-items: center;
+    background-image: url("images/education 1.jpg");
+    background-size: cover;
+}
+.education-content {
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    height: 150px;
+    margin-top: 30px;
+    box-shadow: 7px 12px 15px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+.small-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.small-box {
+    height: 100%;
+    width: 180px;
+    background-color: #3f72af;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.gray-text {
+    color: #757575;
+    font-weight: bold;
+    font-size: 14px;
+}
+.description {
+   padding: 20px;
+}
+#contactMe-section {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-container {
+   margin: 40px; 
+   padding: 40px;
+   width: 500px;
+   box-shadow: 7px 12px 15px 0px rgba(0, 0, 0, 0.1);
+   border: solid #e6e8ed 1px ;
+}
+#contactMe-section .subtitle {
+    margin-left: 40px;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.wrapper {
+    margin: 20px;
+}
+#form .wrapper div {
+    display: flex;
+    flex-direction: column;
+}
+.box {
+    margin-bottom: 20px;
+}
+
+
