@@ -5,12 +5,18 @@
     box-sizing: border-box;
     font-family:'Open Sans', sans-serif ;
 }
+body {
+    height: 95vh;
+    width: 95wh;
+}
+
 #home-page {
     display: flex;
     justify-content: center;
     align-items: center;
     background: #3f72af;
     height: 650px;
+    padding: 20px;
 }
 img {
     margin-top: 20px;
@@ -31,7 +37,6 @@ img {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    margin-left: 40px;
     align-items: center;
     color: rgb(255, 255, 255);
 }
@@ -112,8 +117,9 @@ img {
     flex-direction: column;
     background-color: #e6e8ed;
     align-items: center;
-    background-image: url("images/education 1.jpg");
+    background-image: url("resourses/education 1.jpg");
     background-size: cover;
+    padding: 20px;
 }
 .education-content {
     background-color: rgb(255, 255, 255);
@@ -136,6 +142,7 @@ img {
     justify-content: center;
     align-items: center;
     color: rgb(255, 255, 255);
+    padding: 10px;
 }
 .gray-text {
     color: #757575;
@@ -144,9 +151,10 @@ img {
 }
 .description {
    padding: 20px;
+   margin-bottom: 10px;
 }
 #contactMe-section {
-    height: 650px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -155,6 +163,7 @@ img {
    margin: 40px; 
    padding: 40px;
    width: 500px;
+   height: fit-content;
    box-shadow: 7px 12px 15px 0px rgba(0, 0, 0, 0.1);
    border: solid #e6e8ed 1px ;
 }
@@ -173,8 +182,103 @@ img {
     display: flex;
     flex-direction: column;
 }
+#form .wrapper div section {
+    display: flex;
+    flex-direction: column;
+}
 .box {
     margin-bottom: 20px;
 }
 
+input[type=text] {
+    padding: 10px;
+    border: solid #e6e8ed;
+}
+input[type=email] {
+    padding: 10px;
+    border: solid #e6e8ed;
+}
+input[type=number] {
+    padding: 10px;
+    border: solid #e6e8ed;
+}
+input[type=tel] {
+    padding: 10px;
+    border: solid #e6e8ed;
+}
+textarea {
+    padding: 10px;
+    border: solid #e6e8ed;
+}
+.form-text {
+    color: #212121;
+    font-weight: bold;
+    font-size: 14px;
+}
+.blue-button:hover {
+    box-shadow: 7px 12px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.blue-button {
+    padding: 10px;
+    background-color: #112d4e;
+    color: #e6e8ed;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
+#error-message {
+    color: red;
+    font-size: 13px;
+}
+
+@media(max-width:800px ) {
+    #home-page {
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+    img {
+        margin-top: 20px;
+        width: 200px;
+        height: 220px;
+    }
+    #border {
+        width: 240px;
+        height: 350px;
+    }
+    #resume-button, #contact-button {
+        width: 100px;
+        height: 50px;
+        font-size: small;
+    }
+    .title {
+        font-size: 30px;
+    }
+    #home-page h3 {
+        font-size: 18px;
+    }
+    .subtitle {
+        font-size: 18px;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .education-content {
+        width: 350px;
+        height: 100px;
+    }
+    .small-box {
+        width: 80px;
+    }
+    .education-content p {
+        font-size: 12px;
+    }
+    .gray-text {
+        font-size: 12px;
+    }
+    .form-container {
+        width: 300px;
+    }
+
+}
