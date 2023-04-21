@@ -285,11 +285,13 @@ textarea {
         width: 300px;
     }
 
-    #infographic-section {
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-        margin-top: 20px;
+	#infographic-section {
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  text-align: center;
+}
+
     }
 
     .infographic {
