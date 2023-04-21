@@ -281,26 +281,36 @@ textarea {
         width: 300px;
     }
 	
-	/* Add this to your existing CSS */
 @media only screen and (max-width: 768px) {
     #home-page {
         flex-direction: column;
+        margin: 20px 10px;
     }
 
     #infographic-section {
         flex-direction: column;
         align-items: center;
         height: auto;
+        margin-top: 20px;
+    }
+
+    .infographic {
+        width: 250px;
+        height: 250px;
+        margin: 10px;
     }
 
     #education-section {
         height: auto;
+        padding: 20px 0;
     }
 
     .education-content {
         width: 90%;
     }
-}
-
+	
+	#home-page, .education-content {
+    text-align: center;
+	}
 
 }
