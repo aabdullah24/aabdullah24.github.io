@@ -237,6 +237,8 @@ textarea {
     #home-page {
         flex-direction: column-reverse;
         height: fit-content;
+        text-align: center;
+        margin: 20px;
     }
     img {
         margin-top: 20px;
@@ -265,8 +267,10 @@ textarea {
         font-size: 15px;
     }
     .education-content {
-        width: 350px;
-        height: 100px;
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+        text-align: center;
     }
     .small-box {
         width: 80px;
@@ -279,12 +283,6 @@ textarea {
     }
     .form-container {
         width: 300px;
-    }
-	
-@media only screen and (max-width: 768px) {
-    #home-page {
-        flex-direction: column;
-        margin: 20px 10px;
     }
 
     #infographic-section {
@@ -311,7 +309,6 @@ textarea {
     }
 	
 	#home-page, .education-content {
-    text-align: center;
+    	text-align: center;
 	}
-
 }
