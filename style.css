@@ -266,10 +266,25 @@ textarea {
     .text {
         font-size: 15px;
     }
+    #infographic-section {
+        margin-top: 20px;
+    }
+    .infographic-content {
+        margin-bottom: 20px;
+    }
+    .infographic {
+        width: 250px;
+        height: 250px;
+        margin: 10px;
+    }
+    #education-section {
+        height: auto;
+        padding: 20px 0;
+        text-align: center;
+    }
     .education-content {
         width: 90%;
-        height: auto;
-        margin-top: 20px;
+        margin: 0 auto 20px;
         text-align: center;
     }
     .small-box {
@@ -285,32 +300,8 @@ textarea {
         width: 300px;
     }
 
-	#infographic-section {
-	  display: flex;
-	  justify-content: center;
-	  align-items: center;
-	  text-align: center;
+    #about-section {
+        margin-top: 20px;
+    }
 }
 
-    }
-
-    .infographic {
-        width: 250px;
-        height: 250px;
-        margin: 10px;
-    }
-
-    #education-section {
-        height: auto;
-        padding: 20px 0;
-    }
-
-    .education-content {
-        width: 90%;
-		text-align: center;
-    }
-	
-	#home-page, .education-content {
-    	text-align: center;
-	}
-}
