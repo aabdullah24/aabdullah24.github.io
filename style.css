@@ -106,9 +106,15 @@ img {
     box-shadow: 7px 12px 15px 0px rgba(0, 0, 0, 0.1);
 }
 #infographic-section {
-    height: 600px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 50px;
     display: flex;
     justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.infographic-content {
+	max-width: 700px;
 }
 
 #education-section {
@@ -280,5 +286,21 @@ textarea {
     .form-container {
         width: 300px;
     }
+	
+	.infographic-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+	@media (min-width: 800px) {
+		.infographic-wrapper {
+			flex-direction: row;
+			justify-content: space-evenly;
+		}
+}
+
 
 }
